@@ -1,12 +1,9 @@
-import { useState } from "react";
-import Navbar from "./components/Navbar";
-import MiniAbout from "./components/MiniAbout";
-import ImgNsocial from "./components/ImgNsocial";
-import ViewNscrldwn from "./components/viewNscrldwn";
+// import Navbar from "./components/navbar";
+// import MiniAbout from "./components/miniabout";
+// import ImgNsocial from "./components/imgandsocial";
+// import ViewNscrldwn from "./components/viewnscrldwn";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="text-white bg-[#13101B] flex flex-col min-h-screen justify-center items-center">
       <div className="font-mono font-semibold text-2xl text-center">
