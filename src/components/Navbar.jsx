@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div>
-      <div>AVISEKH.</div>
+    <div className="bg-primary-a">
+      <div className="bg-secondary">AVISEKH.</div>
       <div>
         <div>HOME</div>
         <div>WORK</div>
