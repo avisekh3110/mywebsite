@@ -8,7 +8,7 @@ function ViewNscrldwn() {
         10 <br />
         views
       </div>
-      <img src={dotdesign} alt="Dot Design" />
+      <img src={dotdesign} alt="Dot Design" width={180} />
       <div>SCROLLDOWN</div>
     </div>
   );
