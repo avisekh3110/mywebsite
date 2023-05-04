@@ -5,7 +5,7 @@ import ViewNscrldwn from "./components/viewnscrldwn";
 
 function App() {
   return (
-    <div>
+    <div className="bg-primary-a">
       <Navbar />
       <ViewNscrldwn />
       <MiniAbout />

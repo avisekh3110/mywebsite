@@ -1,4 +1,5 @@
 import React from "react";
+import dotdesign from "/assets/dotdesign.png";
 
 function ViewNscrldwn() {
   return (
@@ -7,7 +8,7 @@ function ViewNscrldwn() {
         10 <br />
         views
       </div>
-      <img src="" alt="Dot Design" />
+      <img src={dotdesign} alt="Dot Design" />
       <div>SCROLLDOWN</div>
     </div>
   );
