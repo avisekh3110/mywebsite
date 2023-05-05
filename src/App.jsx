@@ -1,16 +1,16 @@
 import Navbar from "./components/navbar";
 import MiniAbout from "./components/miniabout";
-import ImgNsocial from "./components/imgandsocial";
+// import ImgNsocial from "./components/imgandsocial";
 // import ViewNscrldwn from "./components/viewnscrldwn";
 
 function App() {
   return (
-    <div className="bg-primary-a h-screen">
+    <div className="bg-primary-a min-h-screen min-w-screen">
       <Navbar />
       {/* <ViewNscrldwn /> */}
       <div className="flex">
         <MiniAbout />
-        <ImgNsocial />
+        {/* <ImgNsocial /> */}
       </div>
     </div>
   );
