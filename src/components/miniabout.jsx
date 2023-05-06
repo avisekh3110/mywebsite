@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MiniAbout() {
   return (
-    <div className="lg:px-12 md:px-24 sm:px-18 px-10 flex flex-col lg:gap-3 md:gap-1 sm:gap-1 gap-1 duration-300">
+    <div className="lg:px-12 md:px-24 sm:px-20 px-10 md:pt-6 sm:pt-4 pt-2 flex flex-col lg:gap-3 md:gap-1 sm:gap-1 gap-1 duration-500">
       <div>
         <div className="lg:text-5xl md:text-4xl sm:text-4xl text-3xl font-extrabold text-quarternary-a duration-300">
           I'M A
