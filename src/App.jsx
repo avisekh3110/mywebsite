@@ -1,18 +1,18 @@
-import Navbar from "./components/navbar";
-import MiniAbout from "./components/miniabout";
-// import ImgNsocial from "./components/imgandsocial";
-import ViewNscrldwn from "./components/viewnscrldwn";
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/home";
+import Work from "./pages/work";
+import NotFound from "./pages/notfound";
 
 function App() {
   return (
-    <div className="bg-primary-a min-h-screen min-w-screen">
-      <Navbar />
-      <div className="flex items-center pt-10">
-        <ViewNscrldwn />
-        <MiniAbout />
-        {/* <ImgNsocial /> */}
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -19,12 +19,12 @@ export default function MiniAbout() {
         GETTING BUGS ON ITS WEB
       </div>
       <div className="flex lg:pt-12 md:pt-8 sm:pt-8 pt-6 lg:gap-16 md:gap-12 sm:gap-12 gap-10">
-        <div className="flex justify-center items-center lg:text-xl md:text-lg sm:text-base text-base font-bold text-primary bg-secondary rounded-full lg:py-2 md:py-1 sm:py-1 py-1 lg:px-8 md:px-6 sm:px-6 px-5 hover:bg-primary-a hover:text-quarternary-a duration-300 border-4 border-secondary">
+        <button className="flex justify-center items-center lg:text-xl md:text-lg sm:text-base text-base font-bold text-primary bg-secondary rounded-full lg:py-2 md:py-1 sm:py-1 py-1 lg:px-8 md:px-6 sm:px-6 px-5 hover:bg-primary-a hover:text-quarternary-a duration-300 border-4 border-secondary">
           HIRE ME
-        </div>
-        <div className="flex justify-center items-center lg:text-xl md:text-lg sm:text-base text-base font-bold text-quarternary-a border-4 border-secondary rounded-full lg:py-2 md:py-1 sm:py-1 py-1 lg:px-8 md:px-6 sm:px-6 px-5 hover:bg-secondary hover:text-primary-a duration-300">
+        </button>
+        <button className="flex justify-center items-center lg:text-xl md:text-lg sm:text-base text-base font-bold text-quarternary-a border-4 border-secondary rounded-full lg:py-2 md:py-1 sm:py-1 py-1 lg:px-8 md:px-6 sm:px-6 px-5 hover:bg-secondary hover:text-primary-a duration-300">
           RESUME
-        </div>
+        </button>
       </div>
     </div>
   );
