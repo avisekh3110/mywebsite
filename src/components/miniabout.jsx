@@ -1,4 +1,5 @@
 import React from "react";
+import TypeWriterEffect from "react-typewriter-effect";
 
 export default function MiniAbout() {
   return (
@@ -8,7 +9,44 @@ export default function MiniAbout() {
           I'M A
         </div>
         <div className="lg:text-5xl md:text-4xl sm:text-4xl text-3xl font-extrabold text-secondary duration-300">
-          PROGRAMMER
+          <TypeWriterEffect
+            startDelay={0}
+            cursorColor="#6E4CD3"
+            multiText={[
+              "PROGRAMMER",
+              "WEB DEVELOPER",
+              "ARTIST",
+              "YOUTUBER",
+              "PROGRAMMER",
+              "WEB DEVELOPER",
+              "ARTIST",
+              "YOUTUBER",
+              "PROGRAMMER",
+              "WEB DEVELOPER",
+              "ARTIST",
+              "YOUTUBER",
+              "PROGRAMMER",
+              "WEB DEVELOPER",
+              "ARTIST",
+              "YOUTUBER",
+              "PROGRAMMER",
+              "WEB DEVELOPER",
+              "ARTIST",
+              "YOUTUBER",
+              "PROGRAMMER",
+              "WEB DEVELOPER",
+              "ARTIST",
+              "YOUTUBER",
+              "PROGRAMMER",
+              "WEB DEVELOPER",
+              "ARTIST",
+              "YOUTUBER",
+              "PROGRAMMER",
+              "WEB DEVELOPER",
+            ]}
+            multiTextDelay={3000}
+            typeSpeed={40}
+          />
         </div>
       </div>
       <div className="lg:text-2xl md:text-xl sm:text-xl text-xl font-bold text-quarternary-a duration-300">
