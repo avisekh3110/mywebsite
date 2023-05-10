@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
 
 export default function MiniAbout() {
+  const multiText = useRef([
+    "PROGRAMMER",
+    "WEB DEVELOPER",
+    "ARTIST",
+    "YOUTUBER",
+  ]);
+
   return (
     <div className="lg:px-12 md:px-24 sm:px-20 px-10 md:pt-6 sm:pt-4 pt-2 flex flex-col lg:gap-3 md:gap-1 sm:gap-1 gap-1 duration-500">
       <div>
@@ -13,36 +20,12 @@ export default function MiniAbout() {
             startDelay={0}
             cursorColor="#6E4CD3"
             multiText={[
-              "PROGRAMMER",
-              "WEB DEVELOPER",
-              "ARTIST",
-              "YOUTUBER",
-              "PROGRAMMER",
-              "WEB DEVELOPER",
-              "ARTIST",
-              "YOUTUBER",
-              "PROGRAMMER",
-              "WEB DEVELOPER",
-              "ARTIST",
-              "YOUTUBER",
-              "PROGRAMMER",
-              "WEB DEVELOPER",
-              "ARTIST",
-              "YOUTUBER",
-              "PROGRAMMER",
-              "WEB DEVELOPER",
-              "ARTIST",
-              "YOUTUBER",
-              "PROGRAMMER",
-              "WEB DEVELOPER",
-              "ARTIST",
-              "YOUTUBER",
-              "PROGRAMMER",
-              "WEB DEVELOPER",
-              "ARTIST",
-              "YOUTUBER",
-              "PROGRAMMER",
-              "WEB DEVELOPER",
+              ...multiText.current,
+              ...multiText.current,
+              ...multiText.current,
+              ...multiText.current,
+              ...multiText.current,
+              ...multiText.current,
             ]}
             multiTextDelay={3000}
             typeSpeed={40}
