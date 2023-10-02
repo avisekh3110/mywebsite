@@ -1,10 +1,6 @@
-// import React from 'react'
-
-// import { NavLink } from "react-router-dom";
 import Navbar from "../components/navbar";
 
-//
-export default function Resume() {
+export default function Works() {
   return (
     <div className=" bg-primary h-screen">
       <Navbar />
