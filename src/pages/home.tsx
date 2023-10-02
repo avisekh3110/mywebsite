@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Navbar from "../components/navbar";
 
 function Home() {
@@ -19,9 +20,12 @@ function Home() {
             DID YOU KNOW : SPIDER IS THE ONLY WEB DEVELOPER
             <br /> WHO LOVES GETTING BUGS ON ITS WEB
           </div>
-          <button className="hover:text-quarternary-a  bg-secondary py-2 px-6  text-lg font-bold rounded-lg hover:bg-transparent border border-secondary duration-300 ">
+          <NavLink
+            to="/contact"
+            className="hover:text-quarternary-a  bg-secondary py-2 px-6  text-lg font-bold rounded-lg hover:bg-transparent border border-secondary duration-300 "
+          >
             LET'S CONNECT
-          </button>
+          </NavLink>
         </div>
         <div>{/* <Cube /> */}</div>
       </div>
