@@ -1,7 +1,7 @@
 // import React from 'react'
 
 // import { NavLink } from "react-router-dom";
-
+import { Page, Text, View, Document, StyleSheet } from "@react-pdf/renderer";
 import Navbar from "../components/navbar";
 
 //

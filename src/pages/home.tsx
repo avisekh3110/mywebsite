@@ -1,7 +1,7 @@
-import github from "/public/assets/github.png";
-import instagram from "/public/assets/instagram.png";
-import linkedin from "/public/assets/linkedin.png";
-import youtube from "/public/assets/youtube.png";
+import github from "/assets/github.png";
+import instagram from "/assets/instagram.png";
+import linkedin from "/assets/linkedin.png";
+import youtube from "/assets/youtube.png";
 import { Link, NavLink } from "react-router-dom";
 import Navbar from "../components/navbar";
 
@@ -31,7 +31,7 @@ function Home() {
             LET'S CONNECT
           </NavLink>
         </div>
-        <div className=" flex flex-col self-center mr-10 gap-5">
+        <div className=" bg-white bg-opacity-20 p-4 rounded-xl flex flex-col self-center mr-10 gap-5">
           <Link
             to={"https://github.com/avisekh3110"}
             target="_blank"
