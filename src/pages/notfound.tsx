@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 export default function Notfound() {
   return (
     <div className="bg-primary h-screen flex flex-col justify-center items-center gap-2">
-      <div className="text-white font-extrabold text-9xl">404!</div>
-      <div className="text-white font-extrabold">PAGE NOT FOUND</div>
-      <div className="text-white font-light flex flex-col items-center">
+      <div className="text-quarternary-a font-extrabold text-9xl">404!</div>
+      <div className="text-quarternary-a font-extrabold">PAGE NOT FOUND</div>
+      <div className="text-quarternary-a font-light flex flex-col items-center">
         <div>The Page you are looking for might have been removed</div>
         <div>had its name changed or is temporarily unavailable.</div>
       </div>

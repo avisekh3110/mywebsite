@@ -31,7 +31,7 @@ function Home() {
             LET'S CONNECT
           </NavLink>
         </div>
-        <div className=" bg-white bg-opacity-20 p-4 rounded-xl flex flex-col self-center mr-10 gap-5">
+        <div className=" select-none bg-quarternary-a bg-opacity-20 p-4 rounded-xl flex flex-col self-center mr-10 gap-5">
           <Link
             to={"https://github.com/avisekh3110"}
             target="_blank"
