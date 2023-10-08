@@ -4,10 +4,12 @@ import linkedin from "/assets/linkedin.png";
 import youtube from "/assets/youtube.png";
 import { Link, NavLink } from "react-router-dom";
 import Navbar from "../components/navbar";
+import MouseTrail from "../components/mousetrail";
 
 function Home() {
   return (
     <div className="bg-primary h-screen">
+      <MouseTrail />
       <Navbar />
       <div className="flex justify-between">
         <div className="lg:p-48 md:p-32 p-14 duration-300">
@@ -26,7 +28,7 @@ function Home() {
           </div>
           <NavLink
             to="/contact"
-            className="hover:text-quarternary-a  bg-secondary py-2 px-6  text-lg font-bold rounded-lg hover:bg-transparent border border-secondary duration-300 "
+            className="hover:text-quarternary-a  bg-secondary py-2 px-6  text-lg font-bold rounded-lg hover:bg-transparent border border-secondary ease-out duration-300 "
           >
             LET'S CONNECT
           </NavLink>

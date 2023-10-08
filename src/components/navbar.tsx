@@ -49,7 +49,7 @@ function Navbar() {
       </div>
       <NavLink
         to={"/unatima"}
-        className="hidden md:flex text-quarternary-a mt-8 py-2 px-8 rounded-lg bg-secondary hover:bg-transparent border border-secondary duration-300 "
+        className="hidden md:flex text-quarternary-a mt-8 py-2 px-8 rounded-lg bg-secondary hover:bg-transparent border border-secondary duration-300 ease-out "
       >
         UNATIMA
       </NavLink>
