@@ -4,12 +4,12 @@ import linkedin from "/assets/linkedin.png";
 import youtube from "/assets/youtube.png";
 import { Link, NavLink } from "react-router-dom";
 import Navbar from "../components/navbar";
-import MouseTrail from "../components/mousetrail";
+// import MouseTrail from "../components/mousetrail";
 
 function Home() {
   return (
     <div className="bg-primary h-screen">
-      <MouseTrail />
+      {/* <MouseTrail /> */}
       <Navbar />
       <div className="flex justify-between">
         <div className="lg:p-48 md:p-32 p-14 duration-300">
