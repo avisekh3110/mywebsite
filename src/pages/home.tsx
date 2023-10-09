@@ -4,6 +4,7 @@ import linkedin from "/assets/linkedin.png";
 import youtube from "/assets/youtube.png";
 import { Link, NavLink } from "react-router-dom";
 import Navbar from "../components/navbar";
+import Cube from "../components/cube";
 // import MouseTrail from "../components/mousetrail";
 
 function Home() {
@@ -11,7 +12,7 @@ function Home() {
     <div className="bg-primary h-screen">
       {/* <MouseTrail /> */}
       <Navbar />
-      <div className="flex justify-between">
+      <div className="flex flex-col sm:flex-row justify-between">
         <div className="lg:p-48 md:p-32 p-14 duration-300">
           <div className="text-quarternary-a lg:text-5xl md:text-4xl text-3xl font-bold">
             I'M A
@@ -33,7 +34,10 @@ function Home() {
             LET'S CONNECT
           </NavLink>
         </div>
-        <div className=" select-none bg-quarternary-a bg-opacity-20 p-4 rounded-xl flex flex-col self-center mr-10 gap-5">
+        <div className="hidden lg:flex justify-center items-center">
+          <Cube />
+        </div>
+        <div className="select-none justify-around bg-quarternary-a bg-opacity-20 p-4 rounded-xl flex sm:flex-col self-center mr-10 gap-10 sm:gap-5">
           <Link
             to={"https://github.com/avisekh3110"}
             target="_blank"
