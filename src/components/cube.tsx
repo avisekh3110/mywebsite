@@ -2,7 +2,7 @@
 // import { createRoot } from 'react-dom/client'
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Mesh } from "three";
-import { RoundedBox } from "@react-three/drei";
+import { RoundedBox, OrbitControls } from "@react-three/drei";
 import { useRef } from "react";
 // import { OrbitControls } from "three-stdlib";
 const Box = () => {
@@ -14,7 +14,7 @@ const Box = () => {
       mesh.current.rotation.z += 0.005;
     }
   });
-  const metalValue = 4;
+  const metalValue = 6;
   return (
     <mesh ref={mesh}>
       <mesh>
@@ -299,7 +299,7 @@ const Box = () => {
 export default function Cube() {
   return (
     <Canvas style={{ height: 600, width: 600 }}>
-      {/* <OrbitControls /> */}
+      <OrbitControls enableZoom={false} />
       {/* <ambientLight intensity={0.3} color={"white"} /> */}
       <pointLight position={[10, 20, 30]} intensity={2000} color={"white"} />
       <pointLight position={[-10, -20, -30]} intensity={2000} color={"white"} />
