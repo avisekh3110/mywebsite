@@ -23,7 +23,7 @@ function Home() {
           <div className="text-quarternary-a lg:text-2xl md:text-xl   text-lg font-bold">
             TURNING COFFEE INTO CODE IS WHAT I DO...
           </div>
-          <div className="text-quarternary-a lg:text-lg text-base font-bold pt-4 pb-10">
+          <div className="text-quarternary-a lg:text-xl text-lg font-mono font-bold pt-4 pb-10">
             DID YOU KNOW : SPIDER IS THE ONLY WEB DEVELOPER
             <br /> WHO LOVES GETTING BUGS ON ITS WEB
           </div>
