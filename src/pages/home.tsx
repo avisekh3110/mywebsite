@@ -9,7 +9,7 @@ import Footer from "../components/footer";
 
 function Home() {
   return (
-    <div className="bg-black h-max ">
+    <div className="bg-black h-max hidden md:flex flex-col w-screen">
       {/* <MouseTrail /> */}
       <Navbar />
       <div className="flex flex-col sm:flex-row justify-between">
@@ -17,7 +17,7 @@ function Home() {
           <div className="text-quarternary-a lg:text-5xl md:text-4xl text-3xl font-bold">
             I'M AVISEKH
           </div>
-          <div className="text-secondary lg:text-6xl md:text-5xl text-4xl sm:font-extrabold font-bold">
+          <div className="text-secondary lg:text-6xl md:text-5xl text-4xl sm:font-extrabold font-bold hover:tracking-widest duration-700 ease-in-out">
             PROGRAMMER
           </div>
           <div className="text-quarternary-a lg:text-2xl md:text-xl   text-lg font-bold">

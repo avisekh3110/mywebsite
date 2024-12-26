@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function SoicalBar() {
   return (
-    <div className="select-none justify-around bg-quarternary-a bg-opacity-20 p-4 rounded-xl flex sm:flex-col self-center mr-10 gap-10 sm:gap-5">
+    <div className="select-none justify-around bg-quarternary-a bg-opacity-20 py-6 px-4 rounded-full flex sm:flex-col self-center lg:mr-16 mr-10 gap-6">
       <Link
         to={"https://github.com/avisekh3110"}
         target="_blank"

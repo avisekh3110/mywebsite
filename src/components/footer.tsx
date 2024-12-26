@@ -7,24 +7,24 @@ export default function Footer() {
       </div>
       <div className="flex space-x-4">
         <a
-          href="https://github.com/myprofile"
+          href="https://github.com/avisekh3110"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-400 transition-colors duration-300"
+          className="hover:text-gray-700 transition-colors duration-300"
         >
           GitHub
         </a>
         <a
-          href="https://linkedin.com/in/myprofile"
+          href="https://www.linkedin.com/in/avisekh-sabi-660603246/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-400 transition-colors duration-300"
+          className="hover:text-gray-700 transition-colors duration-300"
         >
           LinkedIn
         </a>
         <a
-          href="mailto:myemail@example.com"
-          className="hover:text-gray-400 transition-colors duration-300"
+          href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrfTTWPvHhCVJHjfvTXkTKqfRnNgCQrpNglqszMNpNqgtCkzPkSJDRDRVbPnCkvZPgNdxV"
+          className="hover:text-gray-700 transition-colors duration-300"
         >
           Email
         </a>

@@ -43,7 +43,7 @@ export default function Recent() {
 
       <div className="flex text-2xl sm:2xl font-bold font-mono text-quarternary-a">
         <div onClick={handleClick}>Currently working on</div>
-        <Link target="blank" to={""} className="pl-3 animate-pulse">
+        <Link target="blank" to={""} className="pl-3 animate-pulse ">
           {recent}
         </Link>
       </div>
@@ -52,7 +52,7 @@ export default function Recent() {
         to={
           "https://www.cloudskillsboost.google/public_profiles/eada8372-c786-4254-907c-aae29d5e0f43"
         }
-        className="bg-quarternary-a p-4 rounded-sm flex justify-center items-center gap-5"
+        className="bg-quarternary-a hover:bg-quarternary-b duration-300 p-4 rounded-sm flex justify-center items-center gap-5"
       >
         <img src={googleCloudLogo} width={30} />
         <div className="text-lg font-semibold hidden  lg:flex pointer-events-">
