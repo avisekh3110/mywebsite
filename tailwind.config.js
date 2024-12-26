@@ -24,7 +24,8 @@ export default {
         sourGummy: ["Sour Gummy", "sans-serif"]
       },
       letterSpacing: {
-        widest: '0.2em', // Adjust this value to make it wider
+        widest: '0.2em',
+        widesest:'2rem' // Adjust this value to make it wider
       }
     },
   },

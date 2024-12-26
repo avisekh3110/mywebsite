@@ -5,6 +5,7 @@ import SoicalBar from "../components/soicalBar";
 import Recent from "../components/recent";
 import AboutMe from "../components/aboutme";
 import Footer from "../components/footer";
+import Testimonial from "../components/testimonial";
 // import MouseTrail from "../components/mousetrail";
 
 function Home() {
@@ -38,6 +39,7 @@ function Home() {
       </div>
       <Recent />
       <AboutMe />
+      <Testimonial />
       <Footer />
     </div>
   );

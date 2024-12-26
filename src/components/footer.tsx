@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-quarternary-c h-40 text-primary flex flex-col items-center justify-center p-4">
+    <footer className="bg-quarternary-a h-40 text-primary flex flex-col items-center justify-center p-4">
       <div className="mb-4 text-center">
         <h2 className="text-lg font-bold">My Portfolio</h2>
         <p className="text-sm">© 2023 My Portfolio. All rights reserved.</p>
