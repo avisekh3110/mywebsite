@@ -22,6 +22,9 @@ export default {
       fontFamily: {
         DynaPuff: ["DynaPuff", "serif"],
         sourGummy: ["Sour Gummy", "sans-serif"]
+      },
+      letterSpacing: {
+        widest: '0.2em', // Adjust this value to make it wider
       }
     },
   },

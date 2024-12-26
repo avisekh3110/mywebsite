@@ -8,6 +8,7 @@ function Techstack() {
     "Googlecloud",
     "VideoEditing",
     "UI/UX",
+    "IOT/Arduino",
   ];
 
   return (
@@ -19,19 +20,19 @@ function Techstack() {
         <div className="Frontend h-full w-1/4 bg-gray-700 py-4 rounded-md flex flex-col  items-center font-mono gap-4">
           <div className="font-bold text-quarternary-b text-xl">Frontend</div>
           <ul className="flex flex-col gap-3 w-full px-3">
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {frontend[0]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {frontend[1]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {frontend[2]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {frontend[3]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {frontend[4]}
             </li>
           </ul>
@@ -39,19 +40,19 @@ function Techstack() {
         <div className="Frontend h-full w-1/4 bg-gray-700 py-4 rounded-md flex flex-col  items-center font-mono gap-4">
           <div className="font-bold text-quarternary-b text-xl">Backend</div>
           <ul className="flex flex-col gap-3 w-full px-3">
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {backend[0]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {backend[1]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {backend[2]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {backend[3]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {backend[4]}
             </li>
           </ul>
@@ -59,22 +60,22 @@ function Techstack() {
         <div className="Frontend h-full w-1/4 bg-gray-700 py-4 rounded-md flex flex-col  items-center font-mono gap-4">
           <div className="font-bold text-quarternary-b text-xl">Other</div>
           <ul className="flex flex-col gap-3 w-full px-3">
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {others[0]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {others[1]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {others[2]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {others[3]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {others[4]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {others[5]}
             </li>
           </ul>
@@ -84,20 +85,23 @@ function Techstack() {
             Miscellaneous
           </div>
           <ul className="flex flex-col gap-3 w-full px-3">
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {miscellaneous[0]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {miscellaneous[1]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {miscellaneous[2]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {miscellaneous[3]}
             </li>
-            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium">
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
               {miscellaneous[4]}
+            </li>
+            <li className="bg-slate-900 py-1 px-2 flex justify-center items-center rounded-full text-md text-white font-sans font-medium hover:tracking-widest duration-300 ease-in-out">
+              {miscellaneous[5]}
             </li>
           </ul>
         </div>
