@@ -5,7 +5,7 @@ export default function Footer() {
         <h2 className="text-lg font-bold">My Portfolio</h2>
         <p className="text-sm">© 2023 My Portfolio. All rights reserved.</p>
       </div>
-      <div className="flex space-x-4">
+      <div className="flex space-x-4 font-bold">
         <a
           href="https://github.com/avisekh3110"
           target="_blank"
@@ -23,11 +23,17 @@ export default function Footer() {
           LinkedIn
         </a>
         <a
-          href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrfTTWPvHhCVJHjfvTXkTKqfRnNgCQrpNglqszMNpNqgtCkzPkSJDRDRVbPnCkvZPgNdxV"
+          href="mailto:avisekh3110@gmail.com"
           className="hover:text-gray-700 transition-colors duration-300"
         >
           Email
         </a>
+      </div>
+      <div className="mt-2 text-center">
+        <p className="text-md font-mono">
+          Built with <span className="text-red-500">♥</span> using React and
+          Tailwind CSS.
+        </p>
       </div>
     </footer>
   );

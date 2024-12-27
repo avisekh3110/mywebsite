@@ -26,7 +26,26 @@ export default {
       letterSpacing: {
         widest: '0.2em',
         widesest:'2rem' // Adjust this value to make it wider
-      }
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        bounce: {
+          '0%, 100%': { transform: 'translateY(-25%)' },
+          '50%': { transform: 'translateY(0)' },
+        },
+        stretch: {
+          '0%, 100%': { letterSpacing: '0rem' },
+          '50%': { letterSpacing: '0.2rem' },
+        }
+      },
+      animation: {
+        fadeIn: 'fadeIn 2s ease-in-out',
+        bounce: 'bounce 1s infinite',
+        stretch: 'stretch 5s infinite',
+      },
     },
   },
   plugins: [],

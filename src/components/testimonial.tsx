@@ -4,10 +4,10 @@ export default function Testimonial() {
   return (
     <div className=" flex flex-col justify-between  h-[32rem] mb-20 gap-6">
       <div className=" h-1/4 flex flex-col justify-center items-center">
-        <div className="text-8xl text-secondary opacity-80 font-extrabold">
+        <div className="text-8xl text-secondary opacity-40 font-extrabold">
           CONNECTIONS
         </div>
-        <div className="font-bold text-white tracking tracking-widesest text-2xl">
+        <div className="font-bold text-white tracking tracking-widesest text-xl absolute transform translate-y-2 translate-x-3">
           TESTIMONIALS
         </div>
       </div>
