@@ -72,7 +72,7 @@ function Achivements() {
                 Consecutive Wins
               </div>
               <div className="text-md font-mono font-semibold text-quarternary-c rounded-b-lg">
-                Hackathon and Ideathon
+                IEEE Hackathon and Ideathon
               </div>
             </div>
           </Link>

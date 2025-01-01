@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import testi1 from "/testi1.jpg";
+import testitemp from "/testtemp.jpg";
 
 export default function Testimonial() {
   return (
@@ -12,24 +14,81 @@ export default function Testimonial() {
         </div>
       </div>
       <div className="bg-gradient-to-l from-secondary to-purple-900 h-3/4 flex justify-center items-center gap-6 px-4">
-        <div className="h-5/6 w-80 bg-white flex justify-center items-center flex-col text-center p-4 gap-2">
-          <div className="font-bold font-mono text-lg overflow-scroll ">
-            "Avisekh is the most reliable person to work with, be it night or
-            day he is the one i can trust with any work. Be it designing or
-            Winning a hackathon, Sabi is my no. 1 choice."
+        <div className="h-5/6 w-80 flex items-end">
+          <img
+            src={testi1}
+            alt="Sample"
+            // height="20px"
+            // width="20px0"
+            className="absolute bg-white h-20 w-20 -translate-y-52 translate-x-4 rounded-full ring-gray-500 ring"
+          />
+          <div className="bg-white h-5/6 flex flex-col justify-center rounded-md ">
+            <Link
+              to={
+                "https://www.linkedin.com/in/anubhav-yadav-9b8408207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              }
+              target="_blank"
+              className=" flex w-full justify-end py-1 pr-8 text-lg font-bold"
+            >
+              Anubhav Yadav
+            </Link>
+            <div className="flex p-4 text-center font-mono font-semibold text-gray-700">
+              "Avisekh is the most reliable person to work with, be it night or
+              day he is the one i can trust with any work. Be it designing or
+              Winning a hackathon, Sabi is my no. 1 choice."
+            </div>
           </div>
-          <Link
-            to={
-              "https://www.linkedin.com/in/anubhav-yadav-9b8408207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            }
-            target="_blank"
-            className="text-xl font-bold  w-full flex justify-center items-center"
-          >
-            ~ Anubhav Yadav
-          </Link>
         </div>
-        <div className="h-5/6 w-80 bg-white"></div>
-        <div className="h-5/6 w-80 bg-white"></div>
+        <div className="h-5/6 w-80 flex items-end">
+          <img
+            src={""}
+            alt="Sample"
+            // height="20px"
+            // width="20px0"
+            className="absolute bg-white h-20 w-20 -translate-y-52 translate-x-4 rounded-full ring-gray-500 ring"
+          />
+          <div className="bg-white h-5/6 flex flex-col justify-center rounded-md w-full">
+            <Link
+              to={
+                "https://www.linkedin.com/in/anubhav-yadav-9b8408207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              }
+              target="_blank"
+              className=" flex w-full justify-end py-1 pr-8 text-lg font-bold"
+            >
+              Testi2
+            </Link>
+            <div className="flex p-4 text-center font-mono font-semibold text-gray-700 w-full">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              numquam accusantium dolorem deserunt, libero pariatur ex sapiente
+              consequatur ipsam sit quos ducimus.
+            </div>
+          </div>
+        </div>
+        <div className="h-5/6 w-80 flex items-end">
+          <img
+            src={""}
+            alt="Sample"
+            // height="20px"
+            // width="20px0"
+            className="absolute bg-white h-20 w-20 -translate-y-52 translate-x-4 rounded-full ring-gray-500 ring"
+          />
+          <div className="bg-white h-5/6 flex flex-col justify-center rounded-md ">
+            <Link
+              to={
+                "https://www.linkedin.com/in/anubhav-yadav-9b8408207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              }
+              target="_blank"
+              className=" flex w-full justify-end py-1 pr-8 text-lg font-bold"
+            >
+              Testi3
+            </Link>
+            <div className="flex p-4 text-center font-mono font-semibold text-gray-700">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nisi
+              odit nemo fugiat ut debitis praesentium adipisci repellat quae,
+              sequi ea unde deleniti pariatur.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
