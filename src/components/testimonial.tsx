@@ -12,11 +12,11 @@ export default function Testimonial() {
         </div>
       </div>
       <div className="bg-gradient-to-l from-secondary to-purple-900 h-3/4 flex justify-center items-center gap-6 px-4">
-        <div className="h-5/6 w-80 bg-white flex justify-center items-center flex-col text-justify p-4 gap-2">
+        <div className="h-5/6 w-80 bg-white flex justify-center items-center flex-col text-center p-4 gap-2">
           <div className="font-bold font-mono text-lg overflow-scroll ">
             "Avisekh is the most reliable person to work with, be it night or
             day he is the one i can trust with any work. Be it designing or
-            Winning a Hacathon Sabi is my number one choice."
+            Winning a hackathon, Sabi is my no. 1 choice."
           </div>
           <Link
             to={

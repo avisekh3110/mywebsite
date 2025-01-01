@@ -5,12 +5,12 @@ export default function Footer() {
         <h2 className="text-lg font-bold">My Portfolio</h2>
         <p className="text-sm">© 2023 My Portfolio. All rights reserved.</p>
       </div>
-      <div className="flex space-x-4 font-bold">
+      <div className="flex space-x-4 font-bold text-slate-700 duration-300">
         <a
           href="https://github.com/avisekh3110"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-700 transition-colors duration-300"
+          className="hover:text-gray-500 transition-colors duration-300"
         >
           GitHub
         </a>
@@ -18,13 +18,13 @@ export default function Footer() {
           href="https://www.linkedin.com/in/avisekh-sabi-660603246/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-700 transition-colors duration-300"
+          className="hover:text-gray-500 transition-colors duration-300"
         >
           LinkedIn
         </a>
         <a
           href="mailto:avisekh3110@gmail.com"
-          className="hover:text-gray-700 transition-colors duration-300"
+          className="hover:text-gray-500 transition-colors duration-300"
         >
           Email
         </a>
