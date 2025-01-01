@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import testi1 from "/testi1.jpg";
-import testitemp from "/testtemp.jpg";
 
 export default function Testimonial() {
   return (
