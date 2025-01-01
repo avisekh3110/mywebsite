@@ -49,9 +49,7 @@ export default function Testimonial() {
           />
           <div className="bg-white h-5/6 flex flex-col justify-center rounded-md w-full">
             <Link
-              to={
-                "https://www.linkedin.com/in/anubhav-yadav-9b8408207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              }
+              to={"https://www.linkedin.com/in/anuragkumar008/"}
               target="_blank"
               className=" flex w-full justify-end py-1 pr-8 text-lg font-bold"
             >
