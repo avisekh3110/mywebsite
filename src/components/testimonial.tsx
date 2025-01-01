@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import testi1 from "/testi1.jpg";
+import testi2 from "/testi2.jpg";
 
 export default function Testimonial() {
   return (
@@ -40,7 +41,7 @@ export default function Testimonial() {
         </div>
         <div className="h-5/6 w-80 flex items-end">
           <img
-            src={""}
+            src={testi2}
             alt="Sample"
             // height="20px"
             // width="20px0"
@@ -54,12 +55,12 @@ export default function Testimonial() {
               target="_blank"
               className=" flex w-full justify-end py-1 pr-8 text-lg font-bold"
             >
-              Testi2
+              Anurag Kumar
             </Link>
             <div className="flex p-4 text-center font-mono font-semibold text-gray-700 w-full">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              numquam accusantium dolorem deserunt, libero pariatur ex sapiente
-              consequatur ipsam sit quos ducimus.
+              "Avisekh is incredibly dedicated and hardworking as a web
+              developer. I truly admire his ability to tackle complex
+              challenges, stay committed to his craft."
             </div>
           </div>
         </div>

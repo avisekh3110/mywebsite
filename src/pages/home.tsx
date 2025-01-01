@@ -28,9 +28,12 @@ function Home() {
             DID YOU KNOW : SPIDER IS THE ONLY WEB DEVELOPER
             <br /> WHO LOVES GETTING BUGS ON ITS WEB
           </div>
-          <div className="text-quarternary-a w-fit py-2 px-6 text-lg font-bold rounded-lg bg-gradient-to-br from-secondary via-secondary to-fuchsia-500 duration-300 ">
-            <NavLink to="/contact">LET'S CONNECT</NavLink>
-          </div>
+          <NavLink
+            to="/contact"
+            className="text-quarternary-a w-fit py-3 px-8 text-lg font-bold rounded-md bg-gradient-to-br from-secondary via-secondary to-fuchsia-500 duration-300"
+          >
+            LET'S CONNECT
+          </NavLink>
         </div>
         <div className="hidden lg:flex justify-center items-center">
           <Cube />
