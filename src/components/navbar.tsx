@@ -5,7 +5,7 @@ function Navbar() {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <nav className=" text-primary flex flex-row justify-between items-center  lg:px-24 md:px-18 sm:px-12 px-8 font-semibold duration-300">
+    <nav className="text-primary flex flex-row justify-between items-center  lg:px-24 md:px-18 sm:px-12 px-8 font-semibold duration-300">
       <div
         className={`flex bg-secondary pt-8 px-8 pb-2 lg:text-4xl text-primary md:text-3xl text-2xl font-extrabold select-none duration-300`}
         onMouseEnter={() => setHovered(true)}

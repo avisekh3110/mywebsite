@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import testi1 from "/testi1.jpg";
 import testi2 from "/testi2.jpg";
+import testi3 from "/testi3.png";
 
 export default function Testimonial() {
   return (
@@ -64,7 +65,7 @@ export default function Testimonial() {
         </div>
         <div className="h-5/6 w-80 flex items-end">
           <img
-            src={""}
+            src={testi3}
             alt="Sample"
             // height="20px"
             // width="20px0"
@@ -78,12 +79,12 @@ export default function Testimonial() {
               target="_blank"
               className=" flex w-full justify-end py-1 pr-8 text-lg font-bold"
             >
-              Testi3
+              Aryan Srivastav
             </Link>
             <div className="flex p-4 text-center font-mono font-semibold text-gray-700">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nisi
-              odit nemo fugiat ut debitis praesentium adipisci repellat quae,
-              sequi ea unde deleniti pariatur.
+              "Avisekh is a brilliant frontend developer and UI/UX designer who
+              combines creativity, precision, energy, and humor. He makes every
+              project enjoyable and successful."
             </div>
           </div>
         </div>
