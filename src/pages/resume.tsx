@@ -1,10 +1,7 @@
 // import React from 'react'
 import resume from "/resume.png";
-
-// import { NavLink } from "react-router-dom";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-// import MyDocument from "../components/resumePage";
 
 export default function Resume() {
   return (
