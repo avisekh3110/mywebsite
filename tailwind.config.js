@@ -32,9 +32,9 @@ export default {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
         },
-        bounce: {
-          '0%, 100%': { transform: 'translateY(-25%)' },
-          '50%': { transform: 'translateY(0)' },
+        swipe: {
+          '0%,100%':{transform:'translateX(0)'},
+          '50%': { transform: 'translateX(-310%)' },
         },
         stretch: {
           '0%, 100%': { letterSpacing: '0rem' },
@@ -43,7 +43,7 @@ export default {
       },
       animation: {
         fadeIn: 'fadeIn 2s ease-in-out',
-        bounce: 'bounce 1s infinite',
+        swipe: 'swipe 60s linear infinite',
         stretch: 'stretch 5s infinite',
       },
     },
