@@ -44,10 +44,10 @@ export default function Testimonial() {
             testiName="Anubhav Yadav"
           />
           <TestiCard
-            testiLink=""
-            testiDesc="Test description"
+            testiLink="https://www.linkedin.com/in/nidhi-sharma-9a5862344/"
+            testiDesc="Avisekh is one of the finest frontend developer who is very much dedicated in his work."
             testiImg={testi5}
-            testiName="TestiName"
+            testiName="Nidhi Sharma"
           />
         </div>
       </div>
