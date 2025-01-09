@@ -15,7 +15,7 @@ function TestiCard(prop: TestiCardProps) {
         alt="Sample"
         className="absolute bg-white h-20 w-20 -translate-y-52 translate-x-4 rounded-full ring-gray-500 ring"
       />
-      <div className="bg-white h-5/6 flex flex-col justify-start rounded-md ">
+      <div className="bg-white h-5/6 flex flex-col justify-start rounded-md w-full ">
         <Link
           to={prop.testiLink}
           target="_blank"
