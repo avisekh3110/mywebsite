@@ -44,12 +44,10 @@ export default function Testimonial() {
             testiName="Anubhav Yadav"
           />
           <TestiCard
-            testiLink="https://www.linkedin.com/in/nidhi-sharma-9a5862344/"
-            testiDesc="Avisekh is the most reliable person to work with, be it night or
-          day he is the one i can trust with any work. Be it designing or
-          Winning a hackathon, Sabi is my no. 1 choice."
+            testiLink=""
+            testiDesc="Test description"
             testiImg={testi5}
-            testiName="Nidhi Sharma"
+            testiName="TestiName"
           />
         </div>
       </div>
