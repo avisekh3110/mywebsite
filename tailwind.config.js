@@ -1,5 +1,3 @@
-import { animate } from 'framer-motion';
-import { transform } from 'typescript';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -34,7 +32,7 @@ export default {
         },
         swipe: {
           '0%,100%':{transform:'translateX(0)'},
-          '50%': { transform: 'translateX(-310%)' },
+          '50%': { transform: 'translateX(-70%)' },
         },
         stretch: {
           '0%, 100%': { letterSpacing: '0rem' },
@@ -43,7 +41,7 @@ export default {
       },
       animation: {
         fadeIn: 'fadeIn 2s ease-in-out',
-        swipe: 'swipe 60s linear infinite',
+        swipe: 'swipe 50s linear infinite',
         stretch: 'stretch 5s infinite',
       },
     },

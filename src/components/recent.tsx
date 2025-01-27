@@ -4,7 +4,7 @@ import googleCloudLogo from "/gc.svg";
 import myPicture from "/myImage.png";
 
 export default function Recent() {
-  const [recent, setRecent] = useState("My Portfolio Website");
+  const [recent, setRecent] = useState("TrackOexpense");
 
   let count = 0;
   let newRecent: string | null;
@@ -43,7 +43,11 @@ export default function Recent() {
 
       <div className="flex text-2xl sm:2xl font-bold font-mono text-quarternary-a">
         <div onClick={handleClick}>Currently working on</div>
-        <Link target="blank" to={""} className="pl-3 animate-pulse ">
+        <Link
+          target="blank"
+          to={"https://trackoexpense.vercel.app/"}
+          className="pl-3 animate-pulse "
+        >
           {recent}
         </Link>
       </div>
