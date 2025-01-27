@@ -2,7 +2,7 @@ import TestiCard from "./testiCard";
 import testi1 from "/testi1.jpg";
 import testi2 from "/testi2.jpg";
 import testi3 from "/testi3.png";
-import testi5 from "/testi5.jpg";
+// import testi5 from "/testi5.jpg";
 
 export default function Testimonial() {
   return (
