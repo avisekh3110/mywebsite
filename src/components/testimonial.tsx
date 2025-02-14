@@ -16,7 +16,7 @@ export default function Testimonial() {
         </div>
       </div>
       <div className="bg-gradient-to-l from-secondary to-purple-900 h-3/4 flex justify-center items-center">
-        <div className=" w-5/6 h-full flex justify-start items-center gap-5 overflow-hidden px-8">
+        <div className=" w-5/6 h-full flex justify-start items-center gap-5 overflow-y-scroll px-8">
           <TestiCard
             testiLink="https://www.linkedin.com/in/anubhav-yadav-9b8408207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             testiDesc="Avisekh is the most reliable person to work with, be it night or day he is the one i can trust with any work. Be it designing or Winning a hackathon, Sabi is my no. 1 choice."
@@ -34,6 +34,22 @@ export default function Testimonial() {
             testiDesc="Avisekh is a brilliant frontend developer and UI/UX designer who combines creativity, precision, energy, and humor. He makes every project enjoyable and successful."
             testiImg={testi3}
             testiName="Aryan Srivastava"
+          />
+          <TestiCard
+            testiLink="https://www.linkedin.com/in/anubhav-yadav-9b8408207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            testiDesc="Avisekh is the most reliable person to work with, be it night or
+            day he is the one i can trust with any work. Be it designing or
+            Winning a hackathon, Sabi is my no. 1 choice."
+            testiImg={testi1}
+            testiName="Anubhav Yadav"
+          />
+          <TestiCard
+            testiLink="https://www.linkedin.com/in/anubhav-yadav-9b8408207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            testiDesc="Avisekh is the most reliable person to work with, be it night or
+            day he is the one i can trust with any work. Be it designing or
+            Winning a hackathon, Sabi is my no. 1 choice."
+            testiImg={testi1}
+            testiName="Anubhav Yadav"
           />
           <TestiCard
             testiLink="https://www.linkedin.com/in/anubhav-yadav-9b8408207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
