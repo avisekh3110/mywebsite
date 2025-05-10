@@ -1,4 +1,4 @@
-import TechStackbox from "./techStackbox";
+import TechStackSmall from "./techStackSmall";
 
 function TechStackSection(prop: any) {
   return (
@@ -7,7 +7,7 @@ function TechStackSection(prop: any) {
         {Object.keys(prop)[0]}
       </div>
       {prop[Object.keys(prop)[0].toString()].map((ele: string) => {
-        return TechStackbox(ele);
+        return TechStackSmall(ele);
       })}
     </div>
   );
