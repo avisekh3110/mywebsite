@@ -1,3 +1,4 @@
+import TechStackRow from "./techStackRow";
 import TechStackSection from "./techStackSection";
 
 function Techstack() {
@@ -40,9 +41,10 @@ function Techstack() {
       <div className="text-quarternary-a p-4 font-bold text-2xl hover:tracking-widest duration-300 ">
         T E C H - S T A C K
       </div>
-      <div className="flex h-full w-full bg-slate-700 justify-around rounded-md">
+      <div className="flex flex-col gap-3 h-full w-full bg-gradient-to-r from-primary via-secondary to-primary justify-around rounded-md p-4 py-10 items-center ease-out">
         {techstack.map((element: any) => {
-          return TechStackSection(element);
+          return TechStackRow(element);
+          // return TechStackSection(element);
         })}
       </div>
     </div>
