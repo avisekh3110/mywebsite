@@ -1,6 +1,7 @@
 import achive1 from "/achive1.jpg";
 import achive2 from "/achive2.jpg";
 import achive3 from "/achive3.jpg";
+import achive4 from "/achive4.jpeg";
 import AchivementBox from "./achinementBox";
 
 function Achivements() {
@@ -10,7 +11,7 @@ function Achivements() {
         A C H I V E M E N T
       </div>
       <div className=" flex flex-col justify-around items-center w-full gap-4 p-2 rounded-md ">
-        <div className="w-full flex flex-wrap gap-x-10 justify-center">
+        <div className="w-full flex flex-wrap gap-10 justify-center">
           <AchivementBox
             achiveImg={achive1}
             achiveName="GDSC Swags"
@@ -29,12 +30,18 @@ function Achivements() {
             achiveDesc="IEEE Hackathon and Ideathon"
             achiveLink="https://www.linkedin.com/posts/avisekh-sabi-660603246_innovation-hackathon-ideathon-activity-7279183923224412161-BbwC"
           />
-          {/* <AchivementBox
-            achiveImg={achive3}
-            achiveName="Consecutive Wins"
-            achiveDesc="IEEE Hackathon and Ideathon"
-            achiveLink="https://www.linkedin.com/posts/avisekh-sabi-660603246_innovation-hackathon-ideathon-activity-7279183923224412161-BbwC"
-          /> */}
+          <AchivementBox
+            achiveImg={achive4}
+            achiveName="Design Fiesta"
+            achiveDesc="Secured 2nd position"
+            achiveLink="https://www.linkedin.com/posts/avisekh-sabi-660603246_designfiesta-csi-webdesign-activity-7318609791780642816-wWI0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz1P-gBOjb46KA-fEpKn3wHmhdwAYwScuUb"
+          />
+          <AchivementBox
+            achiveImg={achive4}
+            achiveName="Google Swags"
+            achiveDesc="Arcade Facilator Program"
+            achiveLink="https://www.linkedin.com/posts/avisekh-sabi-660603246_designfiesta-csi-webdesign-activity-7318609791780642816-wWI0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz1P-gBOjb46KA-fEpKn3wHmhdwAYwScuUb"
+          />
         </div>
       </div>
     </div>

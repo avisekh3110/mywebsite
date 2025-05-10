@@ -35,7 +35,7 @@ export default function Recent() {
           <div className="text-quarternary-a font-mono font-bold text-xl">
             Avisekh Sabi
           </div>
-          <div className="text-quarternary-b font-mono font-bold text-base">
+          <div className="text-quarternary-c font-mono font-bold text-base">
             @avisekh_sabi
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function Recent() {
         className="bg-quarternary-a hover:bg-quarternary-b duration-300 p-4 rounded-sm flex justify-center items-center gap-5"
       >
         <img src={googleCloudLogo} width={30} />
-        <div className="text-lg font-semibold hidden  lg:flex pointer-events-">
+        <div className="text-lg font-semibold hidden lg:flex ">
           Visit my Google Cloud Skill Profile
         </div>
       </Link>

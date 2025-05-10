@@ -6,9 +6,25 @@ import Recent from "../components/recent";
 import AboutMe from "../components/aboutme";
 import Footer from "../components/footer";
 import Testimonial from "../components/testimonial";
+import { useEffect, useState } from "react";
 // import MouseTrail from "../components/mousetrail";
 
 function Home() {
+  const [setup, setSetup] = useState("");
+  const [pucline, setPunchline] = useState("");
+
+  useEffect(() => {
+    fetch("https://sv443.net/jokeapi/v2/joke/Programming?type=twopart")
+      .then((element) => {
+        return element.json();
+      })
+      .then((element) => {
+        console.log(element);
+        setSetup(element.setup);
+        setPunchline(element.delivery);
+      });
+  }, []);
+
   return (
     <div className="bg-black h-max hidden md:flex flex-col w-screen">
       {/* <MouseTrail /> */}
@@ -25,8 +41,8 @@ function Home() {
             TURNING COFFEE INTO CODE IS WHAT I DO...
           </div>
           <div className="text-quarternary-a lg:text-xl text-lg font-mono font-bold pt-4 pb-10">
-            DID YOU KNOW : SPIDER IS THE ONLY WEB DEVELOPER
-            <br /> WHO LOVES GETTING BUGS ON ITS WEB
+            {!setup ? "Loading..." : setup}
+            <br /> {!pucline ? "Loading..." : pucline}
           </div>
           <NavLink
             to="/contact"
