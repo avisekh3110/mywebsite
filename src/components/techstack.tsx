@@ -1,5 +1,4 @@
 import TechStackRow from "./techStackRow";
-import TechStackSection from "./techStackSection";
 
 function Techstack() {
   let techstack: any = [
@@ -44,7 +43,6 @@ function Techstack() {
       <div className="flex flex-col gap-3 h-full w-full bg-gradient-to-r from-primary via-secondary to-primary justify-around rounded-md p-4 py-10 items-center ease-out">
         {techstack.map((element: any) => {
           return TechStackRow(element);
-          // return TechStackSection(element);
         })}
       </div>
     </div>
