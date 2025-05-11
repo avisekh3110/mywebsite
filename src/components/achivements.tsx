@@ -2,6 +2,7 @@ import achive1 from "/achive1.jpg";
 import achive2 from "/achive2.jpg";
 import achive3 from "/achive3.jpg";
 import achive4 from "/achive4.jpeg";
+import achive5 from "/achive5.jpg";
 import AchivementBox from "./achinementBox";
 
 function Achivements() {
@@ -37,9 +38,9 @@ function Achivements() {
             achiveLink="https://www.linkedin.com/posts/avisekh-sabi-660603246_designfiesta-csi-webdesign-activity-7318609791780642816-wWI0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz1P-gBOjb46KA-fEpKn3wHmhdwAYwScuUb"
           />
           <AchivementBox
-            achiveImg={achive4}
+            achiveImg={achive5}
             achiveName="Google Swags"
-            achiveDesc="Arcade Facilator Program"
+            achiveDesc="Arcade Program 2024"
             achiveLink="https://www.linkedin.com/posts/avisekh-sabi-660603246_designfiesta-csi-webdesign-activity-7318609791780642816-wWI0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz1P-gBOjb46KA-fEpKn3wHmhdwAYwScuUb"
           />
         </div>

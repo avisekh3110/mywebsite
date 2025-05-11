@@ -11,7 +11,7 @@ function AchivementBox(prop: AchiveProps) {
   return (
     <>
       <Link
-        className="h-fit w-[15rem] lg:w-[20rem] flex flex-col justify-start hover:scale-[110%] duration-300"
+        className="h-fit w-[15rem] lg:w-[20rem] flex flex-col justify-start hover:scale-[120%] duration-300"
         to={prop.achiveLink}
         target="_blank"
       >
