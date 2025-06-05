@@ -6,7 +6,8 @@ import Recent from "../components/recent";
 import AboutMe from "../components/aboutme";
 import Footer from "../components/footer";
 import Testimonial from "../components/testimonial";
-import { useEffect, useState } from "react";
+import RotatingText from "../components/rotatingText";
+import { ReactNode, useEffect, useState } from "react";
 // import MouseTrail from "../components/mousetrail";
 
 function Home() {
@@ -25,6 +26,31 @@ function Home() {
       });
   }, []);
 
+  // const [displayedText, setDisplayedText] = useState("");
+  // const fullText = "PROGRAMMER";
+
+  // useEffect(() => {
+  //   let currentIndex = 0;
+  //   setDisplayedText(""); // Reset on mount
+
+  //   const interval = setInterval(() => {
+  //     setDisplayedText((prev) => {
+  //       if (currentIndex < fullText.length) {
+  //         const next = prev + fullText[currentIndex];
+  //         currentIndex++;
+  //         return next;
+  //       } else {
+  //         clearInterval(interval);
+  //         return prev;
+  //       }
+  //     });
+  //   }, 150);
+
+  //   return () => clearInterval(interval);
+  // }, []);
+
+  // const textAnimate = () => displayedText;
+
   return (
     <div className="bg-black h-max hidden md:flex flex-col w-screen">
       {/* <MouseTrail /> */}
@@ -34,9 +60,21 @@ function Home() {
           <div className="text-quarternary-a lg:text-5xl md:text-4xl text-3xl font-bold">
             I'M AVISEKH
           </div>
-          <div className="text-secondary lg:text-6xl md:text-5xl text-4xl sm:font-extrabold font-bold hover:tracking-widest duration-700 ease-in-out">
-            PROGRAMMER
-          </div>
+          {/* <div className="text-secondary lg:text-6xl md:text-5xl text-4xl sm:font-extrabold font-bold hover:tracking-widest duration-700 ease-in-out">
+            {textAnimate()}
+          </div> */}
+          <RotatingText
+            texts={["PROGRAMMER", "UX/UI DESIGNER", "ARTIST", "EDITOR"]}
+            mainClassName=" text-secondary overflow-hidden py-0.5 sm:py-1 md:py-2 justify-start lg:text-5xl md:text-4xl text-3xl font-extrabold rounded-lg"
+            staggerFrom={"last"}
+            initial={{ y: "100%" }}
+            animate={{ y: 0 }}
+            exit={{ y: "-120%" }}
+            staggerDuration={0.025}
+            splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+            transition={{ type: "spring", damping: 30, stiffness: 400 }}
+            rotationInterval={3000}
+          />
           <div className="text-quarternary-a lg:text-2xl md:text-xl   text-lg font-bold">
             TURNING COFFEE INTO CODE IS WHAT I DO...
           </div>
