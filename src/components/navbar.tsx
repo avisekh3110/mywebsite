@@ -28,6 +28,18 @@ function Navbar() {
           HOME
         </NavLink>
         <NavLink
+          to={"/works"}
+          className={({ isActive }) => {
+            return `${
+              isActive
+                ? "border-b-4 border-secondary"
+                : "hover:border-b-4 border-secondary border-dotted duration-75"
+            }`;
+          }}
+        >
+          EXPERIENCE
+        </NavLink>
+        <NavLink
           to={"/resume"}
           className={({ isActive }) => {
             return `${
@@ -38,18 +50,6 @@ function Navbar() {
           }}
         >
           RESUME
-        </NavLink>
-        <NavLink
-          to={"/works"}
-          className={({ isActive }) => {
-            return `${
-              isActive
-                ? "border-b-4 border-secondary"
-                : "hover:border-b-4 border-secondary border-dotted duration-75"
-            }`;
-          }}
-        >
-          WORKS
         </NavLink>
       </div>
       <NavLink
