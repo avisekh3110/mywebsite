@@ -5,6 +5,7 @@ import ProjectPreview from "../components/projectPreview";
 import trackotiny from "/trackotiny.png";
 import trackoexpense from "/trackoexpense.png";
 import todoturu from "/todoturu.png";
+import ExtensionComp from "../components/extensioncomp";
 
 export default function Works() {
   type Exp = {
@@ -80,7 +81,7 @@ export default function Works() {
     },
   ];
 
-  const [ActiveExp, setActiveExp] = useState<Exp>(expObj[0]);
+  const [ActiveExp, setActiveExp] = useState<Exp>(expObj[expObj.length - 1]);
   console.log(ActiveExp);
 
   return (
@@ -140,8 +141,9 @@ export default function Works() {
             </div>
           </div>
         </div>
+        <ExtensionComp />
         <div className="h-full w-[50rem]  flex flex-col gap-6">
-          <div className=" flex items-center justify-center text-3xl hover:tracking-widest duration-300">
+          <div className=" flex items-center justify-center text-3xl hover:tracking-widest duration-300 ">
             P R O J E C T S
           </div>
           <div className="h-full w-full flex flex-col gap-4">
