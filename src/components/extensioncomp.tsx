@@ -1,5 +1,6 @@
 import incredwatcher from "/incredwatcher.png";
 import darogawatcher from "/darogawatcher.png";
+import { Link } from "react-router-dom";
 
 export default function ExtensionComp() {
   return (
@@ -11,7 +12,7 @@ export default function ExtensionComp() {
         V S C O D E
       </div>
       <div className="flex justify-center gap-4">
-        <div className="ring-1 ring-indigo-900 w-[18rem] h-[24rem] -translate-y-20 rounded-sm p-2 flex flex-col justify-between">
+        <div className="ring-1 ring-indigo-900 w-[18rem] h-[24rem] -translate-y-[2.5rem] rounded-sm p-2 flex flex-col justify-between hover:scale-105 duration-300">
           <div>
             <img src={incredwatcher} />
           </div>
@@ -23,11 +24,16 @@ export default function ExtensionComp() {
             It is a VS code Extension that takes error and display it in a funny
             way. It make coding fun.
           </div>
-          <button className="flex bg-green-500 p-2 w-full justify-center items-center">
+          <Link
+            to={
+              "https://marketplace.visualstudio.com/items?itemName=AvisekhSabi.darogawatcher"
+            }
+            className="flex bg-green-500 p-2 w-full justify-center hover:bg-green-700 items-center duration-300 ease-out"
+          >
             INSTALL
-          </button>
+          </Link>
         </div>
-        <div className="ring-1 ring-indigo-900 w-[18rem] h-[24rem] rounded-sm p-2 flex flex-col justify-between">
+        <div className="ring-1 ring-indigo-900 w-[18rem] h-[24rem] -translate-y-[2.5rem] rounded-sm p-2 flex flex-col justify-between hover:scale-105 duration-300">
           <div>
             <img src={darogawatcher} />
           </div>
@@ -39,9 +45,14 @@ export default function ExtensionComp() {
             It is a VS code Extension that takes error and display it in a funny
             way. It make coding fun.
           </div>
-          <button className="flex bg-green-500 p-2 w-full justify-center hover:bg-green-700 items-center duration-300 ease-outs">
+          <Link
+            to={
+              "https://marketplace.visualstudio.com/items?itemName=AvisekhSabi.incrediblewatcher"
+            }
+            className="flex bg-green-500 p-2 w-full justify-center hover:bg-green-700 items-center duration-300 ease-out"
+          >
             INSTALL
-          </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -10,11 +10,11 @@ export default function ProjectPreview(prop: any) {
         </div>
       </div>
       <div>{prop.description}</div>
-      <div className=" h-full rounded-md">
+      <div className="hover:scale-105 duration-300 h-full rounded-md">
         <img
           src={prop.image}
-          alt="trackotiny img"
-          className="rounded-md ring-1 ring-slate-700"
+          alt="Website preview"
+          className=" rounded-md ring-1 ring-slate-700"
         />
       </div>
       <div className="flex gap-2">
