@@ -6,6 +6,7 @@ import trackotiny from "/trackotiny.png";
 import trackoexpense from "/trackoexpense.png";
 import todoturu from "/todoturu.png";
 import ExtensionComp from "../components/extensioncomp";
+import ServiceInfo from "../components/serviceInfo";
 
 export default function Works() {
   type Exp = {
@@ -142,7 +143,7 @@ export default function Works() {
           </div>
         </div>
         <ExtensionComp />
-        <div className="h-full w-[50rem]  flex flex-col gap-6">
+        <div className="h-full w-[50rem] flex flex-col gap-6">
           <div className=" flex items-center justify-center text-3xl hover:tracking-widest duration-300 ">
             P R O J E C T S
           </div>
@@ -152,7 +153,9 @@ export default function Works() {
             })}
           </div>
         </div>
+        <ServiceInfo />
       </div>
+
       <Footer />
     </div>
   );

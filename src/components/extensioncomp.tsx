@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function ExtensionComp() {
   return (
-    <div className=" w-[56rem] h-[30rem] p-4 bg-gradient-to-r from-black via-slate-950 to-black border-t-[1px] border-b-[1px] border-slate-950 ">
+    <div className=" w-[56rem] h-[30rem] p-4 bg-gradient-to-r from-black via-indigo-950 to-black">
       <div className=" flex items-center justify-center text-3xl hover:tracking-widest duration-300 -rotate-90 translate-x-[25rem] translate-y-[13rem] ">
         E X T E N S I O N S
       </div>
