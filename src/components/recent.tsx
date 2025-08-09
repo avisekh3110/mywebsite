@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import googleCloudLogo from "/gc.svg";
-import myPicture from "/myImage.png";
+// import myPicture from "/myImage.png";
+import myPicture from "/myImage2.png";
 
 export default function Recent() {
   const [recent, setRecent] = useState("TrackOexpense");

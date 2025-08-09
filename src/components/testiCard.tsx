@@ -9,7 +9,7 @@ interface TestiCardProps {
 
 function TestiCard(prop: TestiCardProps) {
   return (
-    <div className="relative h-5/6 min-w-[20rem] flex items-end">
+    <div className="relative h-5/6 min-w-[20rem] flex items-end animate-swipe hover:scale-[120%]">
       <img
         src={prop.testiImg}
         alt="Sample"

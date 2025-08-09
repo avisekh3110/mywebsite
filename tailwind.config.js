@@ -32,7 +32,7 @@ export default {
         },
         swipe: {
           "0%,100%": { transform: "translateX(0)" },
-          "50%": { transform: "translateX(-70%)" },
+          "50%": { transform: "translateX(-300%)" },
         },
         stretch: {
           "0%, 100%": { letterSpacing: "0rem" },
