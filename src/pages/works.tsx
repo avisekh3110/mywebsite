@@ -2,9 +2,6 @@ import { useState } from "react";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import ProjectPreview from "../components/projectPreview";
-import trackotiny from "/trackotiny.png";
-import trackoexpense from "/trackoexpense.png";
-import todoturu from "/todoturu.png";
 import ExtensionComp from "../components/extensioncomp";
 import ServiceInfo from "../components/serviceInfo";
 
@@ -60,7 +57,7 @@ export default function Works() {
         "This is website which will be integrated with IOT to track location of GPS module controlled by ESP32 dev module. This project was assigned by CHANDIGARH UNIVERSITY in Independent Project under a topic of Child Tracking System. This uses vite js and tailwind in frontend and node js and express in backend (which further may get upgraded).",
       techstack: ["react", "tailwindCSS", "react-map-gl", "vite"],
       link: "https://trackotiny.vercel.app/",
-      image: trackotiny,
+      image: "/trackotiny.png",
     },
     {
       name: "TrackOExpense",
@@ -69,7 +66,7 @@ export default function Works() {
         "TrackoExpense is a simple and efficient expense tracking application built with React and Vite. This project aims to help users manage their expenses by providing an intuitive interface and seamless user experience.",
       techstack: ["react", "tailwindCSS", "recharts", "vite", "react-toastify"],
       link: "https://trackoexpense.vercel.app/",
-      image: trackoexpense,
+      image: "/trackoexpense.png",
     },
     {
       name: "Todo_turu",
@@ -78,7 +75,7 @@ export default function Works() {
         "It is a Todo List web site which will help you jotting your daily work down. Enjoy!!",
       techstack: ["react", "tailwindCSS", "express", "vite", "axios"],
       link: "https://todo-turu.vercel.app/",
-      image: todoturu,
+      image: "/todoturu.png",
     },
   ];
 
