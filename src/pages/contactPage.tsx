@@ -30,7 +30,7 @@ function ContactPage() {
     e.preventDefault();
     setLoading(true);
     axios
-      .post("http://localhost:8080/", form)
+      .post("https://mywebsite-backend-eclc.onrender.com", form)
       .then((response) => {
         console.log(response.data);
         sentToast();
