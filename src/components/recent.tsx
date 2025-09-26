@@ -3,22 +3,38 @@ import { Link } from "react-router-dom";
 import googleCloudLogo from "/gc.svg";
 // import myPicture from "/myImage.png";
 import myPicture from "/myImage2.png";
+import axios from "axios";
 
 export default function Recent() {
-  const [recent, setRecent] = useState("TrackOexpense");
+  const [recent, setRecent] = useState("heloasjkjasjkajskjaksjakja");
+  const [recentlink, setRecentlink] = useState("");
 
-  let count = 0;
-  let newRecent: string | null;
+  interface Repo {
+    name: string;
+    html_url: string;
+    created_at: string;
+    updated_at: string;
+    pushed_at: string;
+    homepage: string;
+  }
 
-  const handleClick = () => {
-    count = count + 1;
-    if (count === 10) {
-      newRecent = prompt("Enter new Recent work:");
-      if (newRecent !== null) {
-        setRecent(newRecent);
-      }
-    }
-  };
+  axios
+    .get<Repo[]>("https://api.github.com/users/avisekh3110/repos")
+    .then((res) => {
+      const repos: Repo[] = res.data;
+
+      const latestRepo = repos.reduce((latest, repo) =>
+        new Date(repo.updated_at) > new Date(latest.updated_at) ? repo : latest
+      );
+
+      setRecent(latestRepo.name);
+      setRecentlink(
+        latestRepo.homepage ? latestRepo.homepage : latestRepo.html_url
+      );
+    })
+    .catch((err) => {
+      console.log(err.message);
+    });
 
   return (
     <div
@@ -42,12 +58,14 @@ export default function Recent() {
         </div>
       </div>
 
-      <div className="flex text-2xl sm:2xl font-bold font-mono text-quarternary-a">
-        <div onClick={handleClick}>Currently working on</div>
+      <div className="flex font-bold  flex-wrap justify-center items-center">
+        <div className="text-quarternary-a text-2xl sm:2xl font-mono  ">
+          Currently working on
+        </div>
         <Link
           target="blank"
-          to={"https://trackoexpense.vercel.app/"}
-          className="pl-3 animate-pulse "
+          to={recentlink}
+          className="pl-3 text-white font-mono text-2xl sm:2xl animate-pulse"
         >
           {recent}
         </Link>
