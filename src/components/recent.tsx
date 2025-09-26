@@ -6,7 +6,7 @@ import myPicture from "/myImage2.png";
 import axios from "axios";
 
 export default function Recent() {
-  const [recent, setRecent] = useState("heloasjkjasjkajskjaksjakja");
+  const [recent, setRecent] = useState("Loading..");
   const [recentlink, setRecentlink] = useState("");
 
   interface Repo {
