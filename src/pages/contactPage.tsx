@@ -23,7 +23,7 @@ function ContactPage() {
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     setForm({ ...form, [e.target.name]: e.target.value });
-  }; //handle the form changes.
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

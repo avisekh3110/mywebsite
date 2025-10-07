@@ -51,6 +51,22 @@ export default function Works() {
 
   const projObj: Proj[] = [
     {
+      name: "Yapbox",
+      duration: "2025-Present",
+      description:
+        "This is a chat application that uses websocket and JWT Authentication.",
+      techstack: [
+        "react",
+        "tailwindCSS",
+        "JWT",
+        "Express",
+        "Socket.io",
+        "WebRTC",
+      ],
+      link: "https://yapbox.vercel.app/",
+      image: "/yapbox.png",
+    },
+    {
       name: "TrackOtiny",
       duration: "2023-2024",
       description:
