@@ -56,9 +56,8 @@ function Home() {
             <div className="text-quarternary-a lg:text-2xl md:text-xl   text-lg font-bold">
               TURNING COFFEE INTO CODE IS WHAT I DO...
             </div>
-            <div className="text-quarternary-a lg:text-xl text-lg font-mono font-bold pt-4 pb-10">
-              {!setup ? "Loading..." : setup}
-              <br /> {!pucline ? "Loading..." : pucline}
+            <div className="text-quarternary-b lg:text-xl text-lg font-mono font-bold pt-4 pb-6 flex flex-col">
+              {!setup ? <div className=" text-quarternary-c animate-pulse">"Loading..."</div> : <div>{setup}</div>} {!pucline ? <div className=" text-quarternary-c animate-pulse">"Loading..."</div> : <div>{pucline}</div>}
             </div>
             <NavLink
               to="/contactPage"
