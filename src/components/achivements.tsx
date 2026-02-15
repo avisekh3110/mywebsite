@@ -7,7 +7,7 @@ import AchivementBox from "./achinementBox";
 
 function Achivements() {
   return (
-    <div className="h-max w-full m-5  flex flex-col items-center justify-around gap-6">
+    <div className="h-max w-[90%] m-5  flex flex-col items-center justify-around gap-6">
       <div className="text-quarternary-a font-bold text-2xl hover:tracking-widest duration-300 ">
         A C H I V E M E N T
       </div>

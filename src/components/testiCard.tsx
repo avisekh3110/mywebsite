@@ -13,7 +13,7 @@ function TestiCard(prop: TestiCardProps) {
       <img
         src={prop.testiImg}
         alt="Sample"
-        className="absolute bg-white h-20 w-20 -translate-y-52 translate-x-4 rounded-full ring-gray-500 ring"
+        className="absolute bg-white h-20 w-20 -translate-y-52 translate-x-4 rounded-full ring-white ring"
       />
       <div className="bg-white h-5/6 flex flex-col justify-start rounded-md w-full ">
         <Link

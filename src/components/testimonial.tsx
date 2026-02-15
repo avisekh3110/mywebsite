@@ -15,7 +15,7 @@ export default function Testimonial() {
           TESTIMONIALS
         </div>
       </div>
-      <div className="bg-gradient-to-l from-secondary to-purple-900 h-3/4 flex justify-center items-center">
+      <div className="bg-gradient-to-l from-secondary to-purple-900 h-3/4 flex justify-center items-center overflow-hidden">
         <div className=" w-5/6 h-full flex justify-start items-center gap-5 overflow-y-scroll px-8 ">
           <TestiCard
             testiLink="https://www.linkedin.com/in/anubhav-yadav-9b8408207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"

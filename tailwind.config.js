@@ -41,7 +41,7 @@ export default {
       },
       animation: {
         fadeIn: "fadeIn 2s ease-in-out",
-        swipe: "swipe 50s linear infinite",
+        swipe: "swipe 100s linear infinite",
         stretch: "stretch 5s infinite",
       },
     },

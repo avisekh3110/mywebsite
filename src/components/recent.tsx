@@ -24,12 +24,12 @@ export default function Recent() {
       const repos: Repo[] = res.data;
 
       const latestRepo = repos.reduce((latest, repo) =>
-        new Date(repo.updated_at) > new Date(latest.updated_at) ? repo : latest
+        new Date(repo.updated_at) > new Date(latest.updated_at) ? repo : latest,
       );
 
       setRecent(latestRepo.name);
       setRecentlink(
-        latestRepo.homepage ? latestRepo.homepage : latestRepo.html_url
+        latestRepo.homepage ? latestRepo.homepage : latestRepo.html_url,
       );
     })
     .catch((err) => {
@@ -38,7 +38,7 @@ export default function Recent() {
 
   return (
     <div
-      className="flex justify-around items-center select-none rounded-lg h-36 sm:mx-10 lg:mx-36 
+      className="flex justify-around items-center select-none rounded-lg h-36 sm:w-[90%] lg:w-[65%] 
       duration-300 bg-[url('/casecadeImg.png')] ease-out p-4"
     >
       <div className="flex justify-center items-center py-2 px-4 gap-4">

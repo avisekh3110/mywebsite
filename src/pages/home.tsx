@@ -33,11 +33,11 @@ function Home() {
         <img src={phoneDesktop} alt="" width={100} height={100} />
         <div>Please... Switch to Desktop Mode!!</div>
       </div>
-      <div className="bg-primary h-max hidden md:flex flex-col w-screen">
+      <div className="h-max bg-primary overflow-x-hidden hidden md:flex flex-col w-[100%] items-center">
         {/* <MouseTrail /> */}
         <Navbar />
-        <div className="flex flex-col sm:flex-row justify-between">
-          <div className="lg:py-48 md:py-32 py-14 lg:pl-48 md:pl-32 pl-14 duration-300">
+        {/* <div className="flex bg-primary flex-col sm:flex-row items-center justify-center">
+          <div className="md:py-30 py-40">
             <div className="text-quarternary-a lg:text-5xl md:text-4xl text-3xl font-bold">
               I'M AVISEKH
             </div>
@@ -57,7 +57,20 @@ function Home() {
               TURNING COFFEE INTO CODE IS WHAT I DO...
             </div>
             <div className="text-quarternary-b lg:text-xl text-lg font-mono font-bold pt-4 pb-6 flex flex-col">
-              {!setup ? <div className=" text-quarternary-c animate-pulse">"Loading..."</div> : <div>{setup}</div>} {!pucline ? <div className=" text-quarternary-c animate-pulse">"Loading..."</div> : <div>{pucline}</div>}
+              {!setup ? (
+                <div className=" text-quarternary-c animate-pulse">
+                  "Loading..."
+                </div>
+              ) : (
+                <div>{setup}</div>
+              )}{" "}
+              {!pucline ? (
+                <div className=" text-quarternary-c animate-pulse">
+                  "Loading..."
+                </div>
+              ) : (
+                <div>{pucline}</div>
+              )}
             </div>
             <NavLink
               to="/contactPage"
@@ -69,8 +82,55 @@ function Home() {
           <div className="hidden lg:flex justify-center items-center">
             <Cube />
           </div>
-          <SoicalBar />
+        </div> */}
+        <div className="flex md:justify-between md:w-[90%] lg:w-[65%]">
+          <div className="md:py-30 py-40">
+            <div className="text-quarternary-a lg:text-5xl md:text-4xl text-3xl font-bold">
+              I'M AVISEKH
+            </div>
+            <RotatingText
+              texts={["PROGRAMMER", "UX/UI DESIGNER", "ARTIST", "EDITOR"]}
+              mainClassName=" text-secondary overflow-hidden py-0.5 sm:py-1 md:py-2 justify-start lg:text-5xl md:text-4xl text-3xl font-extrabold rounded-lg"
+              staggerFrom={"last"}
+              initial={{ y: "100%" }}
+              animate={{ y: 0 }}
+              exit={{ y: "-120%" }}
+              staggerDuration={0.025}
+              splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+              transition={{ type: "spring", damping: 30, stiffness: 400 }}
+              rotationInterval={3000}
+            />
+            <div className="text-quarternary-a lg:text-2xl md:text-xl   text-lg font-bold">
+              TURNING COFFEE INTO CODE IS WHAT I DO...
+            </div>
+            <div className="text-quarternary-b lg:text-xl text-lg font-mono font-bold pt-4 pb-6 flex flex-col">
+              {!setup ? (
+                <div className=" text-quarternary-c animate-pulse">
+                  "Loading..."
+                </div>
+              ) : (
+                <div>{setup}</div>
+              )}{" "}
+              {!pucline ? (
+                <div className=" text-quarternary-c animate-pulse">
+                  "Loading..."
+                </div>
+              ) : (
+                <div>{pucline}</div>
+              )}
+            </div>
+            <NavLink
+              to="/contactPage"
+              className="text-quarternary-a w-fit py-3 px-8 text-lg font-bold rounded-md bg-gradient-to-br from-secondary via-secondary to-fuchsia-500 duration-300"
+            >
+              LET'S CONNECT
+            </NavLink>
+          </div>
+          <div className="hidden lg:flex justify-center items-center">
+            <Cube />
+          </div>
         </div>
+        <SoicalBar />
         <Recent />
         <AboutMe />
         <Testimonial />
